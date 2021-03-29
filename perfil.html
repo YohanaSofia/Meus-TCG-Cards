@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meus TCG Cards</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="pokebola.png">
+       
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li id="Pokemon">P O K É M O N</li>
+                <li id="resto"><a href="index.html">Meus Cards</a></li>
+                <li id="resto"><a href="adicionar.html">Adicionar card</a></li>
+                <li id="resto"><a href="perfil.html">Perfil</a></li>
+                <li id="resto"><a href="creditos.html">Créditos</a></li>
+                <!--<div class="search-box" id="resto">
+                    <FORM method=GET action=http://www.google.com/search>
+                    <label for="search">Pesquise Aqui: </label>
+                        <input type="hidden" name="sitesearch" id="search" value=file:///C:/Users/jgag2/Desktop/trabalho-web-pokemon-depois-da-tamyres-e-dojoaodenovo-main/trabalho-web-pokemon-depois-da-tamyres-e-dojoaodenovo-main/perfil.html#> 
+                        <input type=text name=q size=20 id="search">
+                            <a class="search-btn" href="#"></a>
+            </div> 
+            <FORM method=GET action=http://www.google.com/search>
+                <input type=hidden name=sitesearch value=file:///C:/Users/jgag2/Desktop/trabalho-web-pokemon-depois-da-tamyres-e-dojoaodenovo-main/trabalho-web-pokemon-depois-da-tamyres-e-dojoaodenovo-main/perfil.html#>
+                <input type=text name=q size=20>
+                <input type=submit value=Procurar>
+            -->
+            </ul>
+        </nav>
+    </header>
+    <img id="img" src="http://pngimg.com/uploads/pokemon/pokemon_PNG148.png">
+
+    <!--Foto de perfil do usuário-->
+
+    <div id="login">
+        <h2>
+             Login
+        </h2>
+        <p id="mensagem" class="oculto">
+            Nome ou senha errada
+        </p>
+        <p>
+            <label for="login-nome">Nome: </label>
+            <input id="login-nome" type="text">
+        </p>
+        <p>
+            <label for="senha">Senha: </label>
+            <input id="senha" type="password">
+        </p>
+        <button id="logar">Logar</button>
+        <p>Ainda não tem cadrastro?</p>
+        <button id="cadrastro">Cadraste-se</button>
+        <p>Esqueceu a senha?</p>
+        <button id="esqueceu">Mudar senha</button>
+    </div>
+    <div id="cadrastro2" class="oculto">
+        <p>
+            <label for="nome-catrasto">Nome: </label>
+            <input id="nome-catrasto" type="text">
+        </p>
+        <p>
+            <label for="sobrenome-catrasto">Sobrenome: </label>
+            <input id="sobrenome-catrasto" type="text">
+        </p>
+        <p>
+            <label for="data-catrasto">Data de nascimento: </label>
+            <input id="data-catrasto" type="date">
+        </p>
+        <p>
+            <label for="email-catrasto">Email: </label>
+            <input id="email-catrasto" type="email">
+        </p>
+        <p>
+            <label for="pais-catrasto">País: </label>
+            <input id="pais-catrasto" type="text">
+        </p>
+        <p>
+            <label for="senha-catrasto">Senha: </label>
+            <input id="senha-catrasto" type="password">
+        </p>
+    </div>
+    <div id="alterar-senha" class="oculto">
+        <p id="mensagem2" class="oculto">
+            Nome ou data de nascimento errado
+        </p>
+        <p>
+            <label for="nome-alterar">Nome: </label>
+            <input id="nome-alterar" type="text">
+        </p>
+        <p>
+            <label for="data-alterar">Data de nascimento: </label>
+            <input id="data-alterar" type="date">
+        </p>
+            <label for="senha-nova">Nova senha: </label>
+            <input id="senha-nova" type="password">
+        </p>
+        <button id="salvar-senha">Salvar senha</button>
+    </div>
+    <button id="alterar" class="oculto">Alterar</button>
+
+    <script src="perfil.js"></script>
+    <script src="login.js"></script>
+    <script src="animacoes.js"></script>
+    </body>
+   
+    <footer>
+        <p>
+            Todos os Direitos Reservados a MeusTcgCards Online LTDA®
+    </p>
+</footer>
+</html>
